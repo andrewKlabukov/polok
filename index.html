@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./pages/index.css">
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+  <title>Document</title>
+</head>
+<body>
+  <div class="page">
+    <header class="header">
+      <div class="header__container">
+        <img src="./images/skull.svg" alt="" class="logo">
+        <nav class="nav">
+          <ul class="nav__items">
+            <li class="nav__item">
+              <a class="nav__link" href="#">О компании</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Наши работы</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Отзывы</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Контакты</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Соц сети</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__social">
+          <a class="header__social_item_vk" href=""></a>
+          <a href="">
+            <img class="header__social_item_inst"  src="./images/inst.svg" alt="">
+          </a>
+          <a href="">
+            <img class="header__social_item_telegram" src="./images/teleg.svg" alt="">
+          </a>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="about">
+        <h1 class="main__title">Радиусные полки</h1>
+        <p class="main__desc">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam quasi exercitationem, quia minima sint aliquid consectetur dicta sequi dolor, illum praesentium perspiciatis. Cumque quidem, repudiandae facilis fugit perspiciatis explicabo tempore.
+        </p>
+        <p class="main__desc">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam quasi exercitationem, quia minima sint aliquid consectetur dicta sequi dolor.
+        </p>
+      </section>
+      <section class="slider">
+        <h2 class="minor-title">Наши работы</h2>
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <img class="swiper__img" src="./images/123.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img class="swiper__img" src="./images/123.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img class="swiper__img" src="./images/123.jpg" alt="">
+            </div>           
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+        
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        
+          <!-- If we need scrollbar -->
+          <div class="swiper-scrollbar"></div>
+        </div>
+      </section>
+      <section class="reviews">
+        <h2 class="minor-title">Отзывы</h2>
+        <div class="reviews__cards">
+          <div class="reviews__card">
+            <img class="reviews__person" src="./images/123.jpg" alt="">
+            <p class="reviews__desc">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt, quod?
+            </p>
+          </div>
+          <div class="reviews__card">          
+            <img class="reviews__person" src="./images/123.jpg" alt="">
+            <p class="reviews__desc">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt, quod?
+            </p>
+          </div>
+          <div class="reviews__card">
+            <img class="reviews__person" src="./images/123.jpg" alt="">
+            <p class="reviews__desc">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt, quod?
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="contacts">
+        <h2 class="minor-title">Контакты</h2>
+      </section>
+      <section class="social">
+        <h2 class="minor-title">Мы в соцсетях</h2>
+      </section>
+    </main>    
+  </div>
+  <footer class="footer">
+      <div class="footer__container">
+        <img class="logo" src="./images/skull1.svg" alt="">
+      </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script src="./script/index.js"></script>
+</body>
+</html>

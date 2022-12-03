@@ -1,3 +1,6 @@
 .swiper__img {
   width: 100%;
+  max-height: 500px;
+  object-fit: contain;
+  background-position: center;
 }
